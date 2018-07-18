@@ -1,26 +1,98 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "Ancient Aliens Guy",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+      "./img/aliens.jpg"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
+    "name": "Bad Luck Brian",
     "image":
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+      "./img/brian.jpg"
   },
   {
     "id": 3,
-    "name": "Squidward",
+    "name": "Ceiling Cat",
     "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+      "./img/ceilingcat.jpg"
+  },
+    {
+    "id": 4,
+    "name": "Crying Lady",
+    "image":
+      "./img/crying.jpg"
+  },
+    {
+    "id": 5,
+    "name": "Doge",
+    "image":
+      "./img/doge.jpg"
+  },
+    {
+    "id": 6,
+    "name": "Evil Kermit",
+    "image":
+      "./img/evilkermit.jpg"
+  },
+    {
+    "id": 7,
+    "name": "Take My Money Fry",
+    "image":
+      "./img/fry.jpg"
+  },
+    {
+    "id": 8,
+    "name": "Not Sure Fry",
+    "image":
+      "./img/frynotsure.jpg"
+  },
+    {
+    "id": 9,
+    "name": "Grumpy Cat",
+    "image":
+      "./img/grumpy.jpg"
+  },
+    {
+    "id": 10,
+    "name": "Conspiracy Keanu",
+    "image":
+      "./img/keanu.jpg"
+  },
+    {
+    "id": 11,
+    "name": "Philosoraptor",
+    "image":
+      "./img/philosoraptor.jpg"
+  },
+    {
+    "id": 12,
+    "name": "Scumbag Steve",
+    "image":
+      "./img/steve.jpg"
+  },
+    {
+    "id": 13,
+    "name": "Success Kid",
+    "image":
+      "./img/successkid.jpg"
+  },
+    {
+    "id": 14,
+    "name": "Trollface",
+    "image":
+      "./img/trollface.jpg"
+  },
+    {
+    "id": 15,
+    "name": "Condescending Wonka",
+    "image":
+      "./img/willy.jpg"
+  },
+    {
+    "id": 16,
+    "name": "Yao",
+    "image":
+      "./img/yao.jpg"
   }
 ]

@@ -1,75 +1,48 @@
-import React from "react";
-import List from "./components/List";
-import Header from "./components/Header";
-import Section from "./components/Section";
+import React, { Component } from "react";
 import Navbar from "./components/Navbar";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import FriendCard from "./components/FriendCard";
-
+import Header from "./components/Header";
+import Container from "./components/Container";
+import MemeList from "./components/MemeList";
+import MemeCard from "./components/MemeCard";
 import memes from "./memes.json";
 
-const groceries = [
-  {
-    id: 1,
-    name: "Milk",
-    purchased: true
-  },
-  {
-    id: 2,
-    name: "Eggs",
-    purchased: true
-  },
-  {
-    id: 3,
-    name: "Cheese",
-    purchased: false
-  },
-  {
-    id: 4,
-    name: "Cake Mix",
-    purchased: false
-  },
-  {
-    id: 5,
-    name: "Carrots",
-    purchased: false
-  },
-  {
-    id: 6,
-    name: "Juice",
-    purchased: true
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      gameStarted : false,
+      score: 0,
+      topScore: 0
+    }
   }
-];
 
-const App = () => (
-  <div>
-    <Navbar />
-    <Header />
-    <Section />
-      <List groceries={groceries} />
-      <Wrapper>
-        <Title>Memes List</Title>
-        <FriendCard
-          name={memes[0].name}
-          image={memes[0].image}
-          occupation={memes[0].occupation}
-          location={memes[0].location}
-        />
-        <FriendCard
-          name={memes[1].name}
-          image={memes[1].image}
-          occupation={memes[1].occupation}
-          location={memes[1].location}
-        />
-        <FriendCard
-          name={memes[2].name}
-          image={memes[2].image}
-          occupation={memes[2].occupation}
-          location={memes[2].location}
-        />
-      </Wrapper>
-  </div>
-);
+  componentDidMount() {
+
+  }
+
+  componentWillUnmount() {
+
+  }
+
+  functionX() {
+
+  }
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <Header />
+        <Container>
+          <MemeList memes={memes} />
+          {/*
+          <MemeCard
+           name={memes[0].name}
+           image={memes[0].image}
+           /> */}
+        </Container>
+      </div>
+    );
+  }
+}
 
 export default App;

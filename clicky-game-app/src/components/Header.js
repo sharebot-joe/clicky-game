@@ -21,7 +21,9 @@ const styles = {
 
 const Header = () => (
   <header style={styles.headerStyle} className="header">
-    <h1 style={styles.headingStyle}>Welcome</h1>
+    <h1>Clicky Game!</h1>
+    <h2>Click on an image to earn points, but don't click on any more than once!
+    </h2>
   </header>
 );
 
