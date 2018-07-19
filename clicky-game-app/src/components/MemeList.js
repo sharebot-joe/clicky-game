@@ -8,13 +8,21 @@ const styles = {
   }
 };
 
+
+
 function MemeList(props) {
   const memes = props.memes;
+  const onClick = props.onClick;
   const memeItems = memes.map((meme) =>
-    <MemeCard key={meme.id}
-              name={meme.name} 
-              image={meme.image} />
+    <MemeCard data-id={meme.id}
+              name={meme.name}
+              image={meme.image}
+              onClick={onClick}
+              className={(props.clicked == true) ? "clicked" : "unclicked"}
+               />
+              }
   );
+
   return (
     <ul style={styles.listStyle}>
       {memeItems}
