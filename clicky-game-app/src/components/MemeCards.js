@@ -8,26 +8,20 @@ const styles = {
   }
 };
 
-
-
-function MemeList(props) {
+function MemeCards(props) {
   const memes = props.memes;
-  const onClick = props.onClick;
-  const memeItems = memes.map((meme) =>
-    <MemeCard data-id={meme.id}
+  const cards = memes.map((meme) =>
+    <MemeCard key={meme.id}
               name={meme.name}
               image={meme.image}
-              onClick={onClick}
-              className={(props.clicked == true) ? "clicked" : "unclicked"}
                />
-              }
   );
 
   return (
     <ul style={styles.listStyle}>
-      {memeItems}
+      {cards}
     </ul>
   );
 }
 
-export default MemeList;
+export default MemeCards;
