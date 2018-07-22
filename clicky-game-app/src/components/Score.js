@@ -6,7 +6,7 @@ const Score = props => {
   const score = props.score;
   const topScore = props.topScore;
   return (
-      <ul class="score">
+      <ul className="score">
         <li>
         Score: {score}
         </li>
