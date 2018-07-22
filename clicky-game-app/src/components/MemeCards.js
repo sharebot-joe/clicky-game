@@ -1,5 +1,4 @@
 import React from "react";
-import memes from "../memes.json";
 import "../styles/MemeCards.css"
 
 const styles = {
@@ -9,15 +8,15 @@ const styles = {
 };
 
 function clickHandler(event) {
-	console.log("clicked!")
+	console.log("clicked! key = ")
 }
 function MemeCards(props) {
-  // const memes = props.memes;
+  const memes = props.memes;
   const cards = memes.map((meme) =>
   	<div 
-  			key={meme.id}
+  	    key={meme.id}
+  	    id={meme.id}
         name={meme.name}
-        image={meme.image}
         className="card"
         onClick={clickHandler}
         >

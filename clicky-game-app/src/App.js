@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Container from "./components/Container";
 import MemeCards from "./components/MemeCards";
+import memes from "./memes.json"
 
 class App extends Component {
   constructor(props) {
@@ -39,7 +40,7 @@ class App extends Component {
         <Navbar />
         <Header />
         <Container>
-          <MemeCards/>
+          <MemeCards memes={memes}/>
         </Container>
       </div>
     );
