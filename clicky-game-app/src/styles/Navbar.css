@@ -1,6 +1,6 @@
 .navbar {
-  background: #6a1b9a;
-  height: 60px;
+  width: 100%;
+  min-height: 60px;
 }
 
 .navbar a {
@@ -9,4 +9,17 @@
   text-decoration: none;
   margin: 5px;
   line-height: 3;
+}
+
+.navbar>ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.navbar>ul>li {
+	display: inline-block;
+	width: 33.3%;
+	text-align: center;
+	font-size: 1.3rem;
+	color: #fff;
 }

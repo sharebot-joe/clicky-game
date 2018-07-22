@@ -1,12 +1,20 @@
 .header {
-  background: #b71775;
-  height: 200px;
+  background: #FFB514;
+  padding: 2rem;
+  text-align: center;
 }
 
-.header h1 {
-  margin: 0;
-  padding-top: 75px;
+.header h1,
+.header h4 {
+	display: inline-block;
+	width: 100%;
+  margin: .75rem;
   text-align: center;
   color: white;
-  font-size: 3rem;
+}
+.header h1 {
+	font-size: 3rem;
+}
+.header h4 {
+	font-size: 1.5rem;
 }

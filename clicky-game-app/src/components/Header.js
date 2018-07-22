@@ -8,22 +8,14 @@ import "../styles/Header.css";
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
-const styles = {
-  headerStyle: {
-    background: "red"
-  },
-  headingStyle: {
-    fontSize: 100
-  }
-};
 
 // We use JSX curly braces to evaluate the style object
 
 const Header = () => (
-  <header style={styles.headerStyle} className="header">
+  <header className="header">
     <h1>Clicky Game!</h1>
-    <h2>Click on an image to earn points, but don't click on any more than once!
-    </h2>
+    <h4>Click on an image to earn points, but don't click on any image more than once!
+    </h4>
   </header>
 );
 

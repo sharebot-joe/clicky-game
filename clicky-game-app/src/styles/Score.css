@@ -1,0 +1,10 @@
+.score {
+	padding: 0;
+}
+.score li {
+	display: inline-block;
+	width: auto;
+}
+.score li:nth-child(2) {
+	width: 3rem;
+}

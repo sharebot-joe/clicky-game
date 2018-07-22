@@ -12,7 +12,7 @@ import Score from "./Score";
 
 const styles = {
   navbarStyle: {
-    background: "green",
+    background: "royalblue",
     justifyContent: "flex-end"
   }
 };
@@ -21,9 +21,17 @@ const styles = {
 
 const Navbar = () => (
   <nav style={styles.navbarStyle} className="navbar">
-    <a href="/">Clicky Game</a>
-    <Alert />
-    <Score />
+    <ul>
+      <li>
+        <a href="/">Clicky Game</a>
+      </li>
+      <li>
+        <Alert />
+      </li>
+      <li>
+        <Score />
+      </li>
+    </ul>
   </nav>
 );
 

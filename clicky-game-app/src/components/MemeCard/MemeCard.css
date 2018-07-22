@@ -1,10 +1,10 @@
 .card {
   background: #fff;
+  display: inline-block;
   border-radius: 2px;
   width: 200px;
   height: 200px;
   margin: 1rem;
-  float: left;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
 

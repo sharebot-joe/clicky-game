@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Container.css";
 
 const styles = {
   containerStyle: {
